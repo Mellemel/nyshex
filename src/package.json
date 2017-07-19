@@ -1,0 +1,16 @@
+{
+  "name": "coding-challenge-source",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "coding-challenge",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NYSHEX Tech Team",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.4.8",
+    "@uirouter/angularjs": "^1.0.4",
+    "bootstrap": "~3.3.6"
+  }
+}
