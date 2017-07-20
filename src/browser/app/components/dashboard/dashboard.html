@@ -1,0 +1,37 @@
+<div id="dashboard">
+    <nav class="navbar navbar-default" style="background-color: darkblue;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="width: 100px;padding:5px;">
+                    <img src="public/img/NYSHEX_Logo_White.png" alt="NYSHEX" class="img-responsive">
+                </a>
+            </div>
+            <p class="navbar-right center-block" style="color:#FAFAFA;margin-top:10px">John Smith</p>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-2 text-center">
+            <p>Binding Offers</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+        </div>
+        <div class="col-md-10">
+            <table class="table">
+                <caption style="display: inline-block;">Binding Offers</caption>
+                <caption style="float: right;">{{results}}</caption>
+                <tbody>
+                    <tr ng-repeat="user in users">
+                        <td>{{user.serviceName}}</td>
+                        <td>{{user.portOrigin}}</td>
+                        <td>{{user.portDestination}}</td>
+                        <td>{{user.transitTime}}</td>
+                        <td>{{user.containerType}}</td>
+                        <td>{{user.quantity}}</td>
+                        <td>{{user.price}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
